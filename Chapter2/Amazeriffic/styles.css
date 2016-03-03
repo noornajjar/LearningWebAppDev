@@ -1,0 +1,39 @@
+body {
+  background: #FEFFF1;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Oldtown, fantasy;
+    font-size: 3em;
+    color: #339999;
+}
+
+header nav{
+    text-align: center;
+    background:  #33CCCC;
+    color: white;
+    font-size: 1.5em;
+}
+
+footer {
+    background:  #33CCCC;
+    border: 5em;
+    border-color:#000;
+}
+
+footer .contact {
+    float: left;
+}
+
+footer .sitemap {
+    float: right;
+}
+
+body h3{
+    color: #333366;
+    border: 0.1em solid #000;
+    padding: 0.2em;
+}

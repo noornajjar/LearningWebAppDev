@@ -9,36 +9,82 @@ header, main, footer {
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
+  padding: 60px;
+
 }
 
 header {
   background: white;
   overflow: auto;
+  border-bottom: thin solid;
+  border-bottom-color: gray;
+
+
 }
 
 header h1 {
   float: left;
   width: 570px;
+  font-family: Oldtown, fantasy;
+  font-size: 60px;
+  bottom: 24px;
+  position: relative;
+  color: orange;
 }
 
 header nav {
   float: right;
   width: 285px;
+  position: relative;
+  left: 40px;
+}
+
+a {
+    color: red;
 }
 
 main {
   background: white;
   overflow: auto;
+  font-size: 17px;
 }
 
 main .left {
   float: left;
-  width: 570px;
+  width: 500px;
+
 }
 
 main .right {
   float: right;
   width: 285px;
+}
+
+main h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: purple;
+    padding-bottom: 5px;
+}
+
+main h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    padding-bottom: 5px;
+}
+
+main p {
+    padding-bottom: 50px;
+}
+
+main input {
+    margin-bottom: 10px;
+    border-color: red;
+}
+
+main h1 {
+    font-size: 40px;
 }
 
 footer .left {
@@ -49,4 +95,20 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+  padding-bottom: 40px;
+}
+
+footer .sitemap .left {
+    float: left;
+    width: 142px;
+}
+
+footer .sitemap .right {
+    float: right;
+    width: 142px;
+}
+
+footer h5 {
+    font-weight: bold;
+    padding-bottom: 15px;
 }
